@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+.bodiy {
+}
+
+.bodiy-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+.bodiy-top h1 {
+  font-weight: 800;
+}
+.bodiy-reight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bodiy-reight a {
+  margin-left: 20px;
+  margin-right: 30px;
+  color: #000;
+}
+.bodiy-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.bodiy-reight button {
+  color: #fff;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: none;
+  background: dodgerblue;
+  border-radius: 20px;
+}
+.card {
+  background-color: rgb(232, 232, 232);
+}
+.bodiy-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bodiy-bottom_left {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icon {
+  width: 25px;
+  height: 25px;
+  background-color: rgb(232, 87, 61);
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.bodiy-bottom_left h2 {
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+.bodiy-bottom_left p {
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+  margin-top: 5px;
+}
+.bodiy-bottom_reight {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.bodiy-bottom_reight a {
+  padding: 0 10px;
+  text-decoration: none;
+  color: #000;
+  border-right: 1px solid black;
+}
+/* MEIN STYLES END CSS */
+.mein {
+  background-color: rgb(232, 232, 232);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 130px 0;
+}
+.mein-right {
+  margin-right: 40px;
+}
+
+.mein-reight-img img {
+  border-radius: 50%;
+}
+.mein-left {
+  width: 500px;
+}
+.mein-left h1 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+  font-size: 6rem;
+  margin-bottom: 20px;
+}
+.mein-left h3 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+.mein-left p {
+  width: 370px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  line-height: 1.8;
+}
+.mein-card {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-top: 20px;
+}
+.card2 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+.card2:hover {
+  transition: all 0.3s ease;
+  background: #fff;
+}
+.mein-icon {
+  font-size: 1.5rem;
+}
+
+.mein-resume {
+  background: orange;
+}
+.mein-project {
+  background: firebrick;
+}
+.mein-contact {
+  background: lightskyblue;
+}
+/* FOOTER STYLES EDN CSS */
+.footer{
+    background: rgb(232, 232, 232);
+    
+}
+.footer-contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0px 80px 0px;
+}
+.contact{
+    margin-left: 10px;
+}
+.contact-icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.contact-icon i{
+    font-size: 1.5rem;
+}
+.contact p{
+    font-weight: 300;
+}
+.contact h5{
+    font-weight: 300;
+    color: black;
+}
+.icon-in{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
